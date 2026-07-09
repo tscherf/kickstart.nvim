@@ -6,6 +6,6 @@ require('floating-help').setup ({
       position = 'E',
       border = 'rounded',
     })
-vim.keymap.set('n', '<leader>h', require('floating-help').toggle, { desc = 'Floating [h]help' })
+vim.keymap.set('n', '<leader>?', require('floating-help').toggle, { desc = 'Floating [?]help' })
 
 
